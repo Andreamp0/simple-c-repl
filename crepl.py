@@ -21,6 +21,8 @@ while True:
         case ":pcode":
             print(st+"\n".join(ib)+en)
             continue
+        case "":
+            continue
         case ":quit":
             break
     ib.append(new)
